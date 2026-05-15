@@ -2,10 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer
-      className="flex justify-between bg-navy px-8 py-8 border-t-2 border-gold"
-      aria-label="footer"
-    >
+    <footer className="flex justify-between bg-navy px-8 py-8 border-t-2 border-gold">
       <div className="text-sm text-white/40">
         &copy; {new Date().getFullYear()} Alan Garcia
       </div>
