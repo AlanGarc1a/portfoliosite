@@ -1,7 +1,7 @@
 const experiences = [
   {
     period: "2022 – 2026",
-    role: "Associate Software Engineer",
+    role: "Software Engineer",
     company: "Guitar Center — Lessons Team",
   },
 ];
