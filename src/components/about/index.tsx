@@ -1,4 +1,4 @@
-const experiences = [
+const currentJob = [
   {
     period: "2022 – 2026",
     role: "Software Engineer",
@@ -16,7 +16,7 @@ const About = () => {
           </p>
           <div className="flex-1 h-px bg-light-blue" />
         </div>
-        <div className="flex gap-16">
+        <div className="flex flex-wrap md:flex-row flex-col gap-16">
           {/* Bio — takes more space */}
           <div className="flex flex-col gap-5 flex-[3]">
             <p className="text-muted-gray leading-relaxed">
@@ -44,10 +44,10 @@ const About = () => {
           {/* Experience — takes less space */}
           <div className="flex flex-col gap-6 flex-[2]">
             <p className="font-mono uppercase text-gold text-xs tracking-widest">
-              Experience
+              Last Job
             </p>
             <div className="flex flex-col gap-6 border-l-2 border-light-blue pl-6">
-              {experiences.map((exp) => (
+              {currentJob.map((exp) => (
                 <div key={exp.company}>
                   <p className="font-mono text-gold text-xs uppercase tracking-wide mb-1">
                     {exp.period}

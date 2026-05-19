@@ -16,7 +16,8 @@ const navLinks: NavLink[] = [
   { id: 1, name: "About", href: "#about" },
   { id: 2, name: "Experience", href: "#experience" },
   { id: 3, name: "Projects", href: "#projects" },
-  { id: 4, name: "Contact", href: "#contact" },
+  { id: 4, name: "Skills", href: "#skills" },
+  { id: 5, name: "Contact", href: "#contact" },
 ];
 
 const easing: [number, number, number, number] = [0.22, 1, 0.36, 1];

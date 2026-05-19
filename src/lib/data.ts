@@ -44,4 +44,40 @@ export const projects: Project[] = [
     techStack: ["HTML5", "CSS3", "SASS", "JavaScript"],
     githubUrl: "https://github.com/AlanGarc1a/cloud-systems",
   },
+  {
+    id: 5,
+    type: ["Frontend"],
+    title: "Portfoliov1",
+    description: "First portfolio website made.",
+    techStack: ["HTML5", "CSS3", "SASS", "JavaScript", "Three.js"],
+    githubUrl: "https://github.com/AlanGarc1a/PortfolioWebsite",
+  },
+];
+
+export const experiences = [
+  {
+    id: 1,
+    description:
+      "Engineered and delivered high-traffic, customer-facing features across Guitar Center&apos;s ecommerce and booking platforms using React.js, Next.js, and TypeScript, contributing to a measurable improvement in page performance.",
+  },
+  {
+    id: 2,
+    description:
+      "Designed and implemented a scalable API orchestration layer integrating Salesforce and POS systems, streamlining data synchronization across distributed services and reducing error rates by 35%.",
+  },
+  {
+    id: 3,
+    description:
+      "Owned end-to-end refactoring of a legacy React codebase, decomposing tightly coupled components into a reusable design system improving cross-team consistency.",
+  },
+  {
+    id: 4,
+    description:
+      "Partnered with product, design, and business stakeholders to scope and deliver improvements to the customer lesson booking workflow, driving a smoother checkout experience",
+  },
+  {
+    id: 5,
+    description:
+      "Performed code reviews, code quality improvements, and contributed to technical documentation.",
+  },
 ];
